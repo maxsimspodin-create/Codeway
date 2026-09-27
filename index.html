@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeWay</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <a class="logo" href="#">
+                <span class="logo-icon">?</span>
+                <span class="logo-text">CodeWay</span>
+            </a>
+
+            <nav class="nav" aria-label="Основна навігація">
+                <ul>
+                    <li><a href="#courses">Курси</a></li>
+                    <li><a href="#benefits">Переваги</a></li>
+                    <li><a href="#about">Про нас</a></li>
+                    <li><a href="#reviews">Відгуки</a></li>
+                    <li><a href="#contacts">Контакти</a></li>
+                </ul>
+            </nav>
+
+            <a class="button" href="#courses">Спробувати →</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero__container">
+                <div class="hero__content">
+                    <p class="hero__eyebrow">Web-курси для твоєї кар’єри</p>
+                    <h1 class="hero__title">Розвивай навички<br>у веб-розробці та<br>створюй своє майбутнє</h1>
+                    <p class="hero__description">Практичні курси, сучасні технології та підтримка менторів. Отримуй
+                        навички, які відкриють нові можливості в IT.</p>
+                    <div class="hero__actions">
+                        <a class="button" href="#courses">Обрати курс →</a>
+                        <a class="hero__link" href="#about">Дізнатися більше</a>
+                    </div>
+                </div>
+
+                <div class="hero__image">
+                    <img src="images/Screen.jpg" alt="Екран">
+                </div>
+            </div>
+        </section>
+
+        <section class="benefits" id="benefits">
+            <div class="benefits-container">
+                <p class="benefits-eyebrow">Чому саме ми?</p>
+                <h2 class="benefits-title">Переваги навчання у CodeWay</h2>
+
+                <ul class="benefits-list">
+                    <li class="benefits-card">
+                        <span class="benefits-icon">✓</span>
+                        <h3 class="benefits-card-title">Практичний підхід</h3>
+                        <p class="benefits-card-text">Більше практики — менше теорії. Ви створюєте реальні проєкти
+                            для портфоліо.</p>
+                    </li>
+                    <li class="benefits-card">
+                        <span class="benefits-icon">★</span>
+                        <h3 class="benefits-card-title">Досвідчені ментори</h3>
+                        <p class="benefits-card-text">Професіонали з реального IT допоможуть на кожному етапі
+                            навчання.</p>
+                    </li>
+                    <li class="benefits-card">
+                        <span class="benefits-icon">=</span>
+                        <h3 class="benefits-card-title">Сучасні технології</h3>
+                        <p class="benefits-card-text">Актуальні інструменти та технології, які використовують у
+                            світових компаніях.</p>
+                    </li>
+                    <li class="benefits-card">
+                        <span class="benefits-icon">+</span>
+                        <h3 class="benefits-card-title">Підтримка після курсів</h3>
+                        <p class="benefits-card-text">Допоможемо з працевлаштуванням і будемо поруч навіть після
+                            завершення навчання.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="courses" id="courses">
+            <div class="courses-container">
+                <div class="courses-top">
+                    <h2 class="courses-title">Наші курси</h2>
+                    <a class="courses-link" href="#courses">Переглянути всі курси →</a>
+                </div>
+
+                <ul class="courses-list">
+                    <li class="courses-card">
+                        <span class="courses-icon">HTML</span>
+                        <h3 class="courses-card-title">HTML & CSS</h3>
+                        <p class="courses-card-text">Основи верстки — від сучасних веб-сторінок. Створи свій перший сайт
+                            з нуля.</p>
+                        <ul class="courses-tags">
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>Flexbox</li>
+                            <li>Grid</li>
+                        </ul>
+                        <p class="courses-time">4 тижні</p>
+                    </li>
+                    <li class="courses-card">
+                        <span class="courses-icon">JS</span>
+                        <h3 class="courses-card-title">JavaScript</h3>
+                        <p class="courses-card-text">Додай інтерактивності своїм проектам. Вивчай мову, яка оживляє веб.
+                        </p>
+                        <ul class="courses-tags">
+                            <li>ES6+</li>
+                            <li>DOM</li>
+                            <li>APIs</li>
+                            <li>Async/Await</li>
+                        </ul>
+                        <p class="courses-time">6 тижнів</p>
+                    </li>
+                    <li class="courses-card">
+                        <span class="courses-icon">R</span>
+                        <h3 class="courses-card-title">React</h3>
+                        <p class="courses-card-text">Створюй динамічні та популярні бібліотеки для Facebook.</p>
+                        <ul class="courses-tags">
+                            <li>JSX</li>
+                            <li>Components</li>
+                            <li>Hooks</li>
+                            <li>Router</li>
+                        </ul>
+                        <p class="courses-time">6 тижнів</p>
+                    </li>
+                    <li class="courses-card">
+                        <span class="courses-icon">N</span>
+                        <h3 class="courses-card-title">Node.js</h3>
+                        <p class="courses-card-text">Працюй з серверною частиною та створюй повноцінні веб-додатки.</p>
+                        <ul class="courses-tags">
+                            <li>Express</li>
+                            <li>API</li>
+                            <li>MongoDB</li>
+                            <li>REST</li>
+                        </ul>
+                        <p class="courses-time">7 тижнів</p>
+                    </li>
+                    <li class="courses-card">
+                        <span class="courses-icon">FS</span>
+                        <h3 class="courses-card-title">Fullstack Web Development</h3>
+                        <p class="courses-card-text">Комплексний курс для створення повноцінних веб-додатків.</p>
+                        <ul class="courses-tags">
+                            <li>HTML/CSS</li>
+                            <li>JS</li>
+                            <li>React</li>
+                            <li>Node.js</li>
+                        </ul>
+                        <p class="courses-time">12 тижнів</p>
+                    </li>
+                    <li class="courses-card">
+                        <span class="courses-icon">TS</span>
+                        <h3 class="courses-card-title">TypeScript</h3>
+                        <p class="courses-card-text">Зроби свій код більш надійним і масштабованим завдяки типізації.
+                        </p>
+                        <ul class="courses-tags">
+                            <li>Types</li>
+                            <li>Interfaces</li>
+                            <li>Generics</li>
+                            <li>React</li>
+                        </ul>
+                        <p class="courses-time">5 тижнів</p>
+                    </li>
+                    <li class="courses-card">
+                        <span class="courses-icon">Py</span>
+                        <h3 class="courses-card-title">Python для веб-розробки</h3>
+                        <p class="courses-card-text">Вивчай Python і створюй веб-додатки з використанням фреймворків.
+                        </p>
+                        <ul class="courses-tags">
+                            <li>Django</li>
+                            <li>Flask</li>
+                            <li>REST API</li>
+                            <li>SQLite</li>
+                        </ul>
+                        <p class="courses-time">6 тижнів</p>
+                    </li>
+                    <li class="courses-card">
+                        <span class="courses-icon">Git</span>
+                        <h3 class="courses-card-title">Git & GitHub</h3>
+                        <p class="courses-card-text">Керуй версіями, працюй у команді, створюй open source проекти.</p>
+                        <ul class="courses-tags">
+                            <li>Git</li>
+                            <li>GitHub</li>
+                            <li>Pull Requests</li>
+                            <li>CI/CD</li>
+                        </ul>
+                        <p class="courses-time">4 тижні</p>
+                    </li>
+                    <li class="courses-card">
+                        <span class="courses-icon">UI</span>
+                        <h3 class="courses-card-title">Web Design Basics</h3>
+                        <p class="courses-card-text">Створюй сучасний і зручний інтерфейс для своїх проектів.</p>
+                        <ul class="courses-tags">
+                            <li>Figma</li>
+                            <li>UI/UX</li>
+                            <li>Layout</li>
+                            <li>Typography</li>
+                        </ul>
+                        <p class="courses-time">4 тижні</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="contact" id="contacts">
+            <div class="contact-container">
+                <div class="contact-info">
+                    <p class="contact-eyebrow">Залиши заявку на навчання</p>
+                    <h2 class="contact-title">Почни свій шлях у веб-розробці</h2>
+                    <p class="contact-text">Заповни форму, і ми зв’яжемося з тобою, щоб допомогти обрати курс.</p>
+                </div>
+
+                <form class="contact-form" action="#" method="post">
+                    <div class="form-field">
+                        <label for="name">Ім’я *</label>
+                        <input id="name" name="name" type="text" placeholder="Ваше ім’я" required>
+                    </div>
+                    <div class="form-field">
+                        <label for="email">Електронна пошта *</label>
+                        <input id="email" name="email" type="email" placeholder="you@example.com" required>
+                    </div>
+                    <div class="form-field">
+                        <label for="phone">Номер телефону *</label>
+                        <input id="phone" name="phone" type="tel" placeholder="+380 (__) ___ __ __" required>
+                    </div>
+                    <div class="form-field">
+                        <label for="course">Курс, який цікавить *</label>
+                        <select id="course" name="course" required>
+                            <option value="" selected disabled>Оберіть курс</option>
+                            <option>HTML & CSS</option>
+                            <option>JavaScript</option>
+                            <option>React</option>
+                            <option>Node.js</option>
+                            <option>Fullstack Web Development</option>
+                            <option>TypeScript</option>
+                            <option>Python для веб-розробки</option>
+                            <option>Git & GitHub</option>
+                            <option>Web Design Basics</option>
+                        </select>
+                    </div>
+                    <div class="form-field">
+                        <label for="comment">Коментар</label>
+                        <textarea id="comment" name="comment"
+                            placeholder="Розкажіть трохи про свій досвід та цілі..."></textarea>
+                    </div>
+                    <button class="button contact-button" type="submit">Надіслати заявку</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-info">
+                <a class="logo" href="#">
+                    <span class="logo-icon"><></span>
+                    <span class="logo-text">CodeWay</span>
+                </a>
+                <p>Практичні web-курси для твого майбутнього в IT.</p>
+            </div>
+
+            <nav class="footer-nav" aria-label="Навігація у Footer">
+                <h2 class="footer-title">Навігація</h2>
+                <ul class="footer-list">
+                    <li><a href="#courses">Курси</a></li>
+                    <li><a href="#benefits">Переваги</a></li>
+                    <li><a href="#about">Про нас</a></li>
+                    <li><a href="#reviews">Відгуки</a></li>
+                    <li><a href="#contacts">Контакти</a></li>
+                </ul>
+            </nav>
+
+            <address class="footer-contacts">
+                <h2 class="footer-title">Контакти</h2>
+                <a href="mailto:hello@codeway.com">hello@codeway.com</a>
+                <a href="tel:+380671234567">+380 67 123 45 67</a>
+                <p>м. Київ, вул. Хрещатик, 12</p>
+            </address>
+
+            <div class="footer-social">
+                <h2 class="footer-title">Соціальні мережі</h2>
+                <ul class="footer-list">
+                    <li><a href="#telegram">Telegram</a></li>
+                    <li><a href="#instagram">Instagram</a></li>
+                    <li><a href="#linkedin">LinkedIn</a></li>
+                    <li><a href="#youtube">YouTube</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
